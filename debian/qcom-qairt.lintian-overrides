@@ -1,0 +1,11 @@
+no-manual-page
+shared-library-lacks-version
+undeclared-elf-prerequisites
+library-not-linked-against-libc
+missing-dependency-on-libc
+shared-library-lacks-stack-section
+sharedobject-in-library-directory-missing-soname
+triplet-dir-and-architecture-mismatch
+arch-independent-package-contains-binary-or-object
+lacks-ldconfig-trigger
+embedded-library

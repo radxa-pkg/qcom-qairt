@@ -8,6 +8,6 @@
 /*.substvars
 /tmp
 
-/qcom-genie-sdk-v*
-/qcom-qnn-sdk-v*
-!*.install
+/qcom-genie-sdk-v*/
+/qcom-qnn-sdk-v*/
+/radxa-qcom-qairt/
