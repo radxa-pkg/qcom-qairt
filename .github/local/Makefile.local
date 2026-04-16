@@ -2,4 +2,4 @@ main_build: update-qcom-qairt
 
 .PHONY: update-qcom-qairt
 update-qcom-qairt:
-	bash scripts/update-qcom-qairt.sh
+	scripts/update-qcom-qairt.sh

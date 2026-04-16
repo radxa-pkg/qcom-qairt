@@ -9,11 +9,48 @@ Build-Depends: debhelper-compat (= 13),
                lintian,
                dh-exec,
                pandoc,
+               curl,
+               unzip
 
-Package: qcom-qairt
+Package: radxa-qcom-qairt
 Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
-Description: qcom-qairt
- This package provides the qcom-qairt.
+Description: Radxa qairt tools
+ Radxa Qcom Qairt SDK tools.
+ This is currently an empty package.
+
+Package: qcom-genie-sdk-v68
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+         qcom-qnn-sdk-v68,
+Description: Qualcomm Genie SDK
+ Qualcomm Genie SDK (Hexagon v68).
+
+Package: qcom-qnn-sdk-v68
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+Description: Qualcomm Neural Network SDK
+ Qualcomm Neural Network SDK (Hexagon v68).
+
+Package: qcom-genie-sdk-v73
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+         qcom-qnn-sdk-v73,
+Description: Qualcomm Genie SDK
+ Qualcomm Genie SDK (Hexagon v73).
+
+Package: qcom-qnn-sdk-v73
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+Description: Qualcomm Neural Network SDK
+ Qualcomm Neural Network SDK (Hexagon v73)
