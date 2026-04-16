@@ -22,3 +22,9 @@
 
 # Logs
 /*.log
+
+/*.zip
+
+/qairt
+/qcom-genie-sdk-v*
+/qcom-qnn-sdk-v*
