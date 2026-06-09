@@ -35,6 +35,7 @@ Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
+         fastrpc-dev,
 Description: Qualcomm Neural Network SDK
  Qualcomm Neural Network SDK (Hexagon v68).
 
@@ -52,5 +53,6 @@ Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
+         fastrpc-dev,
 Description: Qualcomm Neural Network SDK
  Qualcomm Neural Network SDK (Hexagon v73)
