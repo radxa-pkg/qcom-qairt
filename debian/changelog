@@ -1,3 +1,13 @@
+qcom-qairt (0.1.0-2) unstable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Update pkg.conf.template with new release entries
+
+  [ Chongbiao Chen ]
+  * feat: add fastrpc-dev dependency for qnn-sdk-v68 and qnn-sdk-v73
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 26 Jun 2026 11:25:15 +0000
+
 qcom-qairt (0.1.0-1) unstable; urgency=medium
 
   [ "Radxa Computer Co., Ltd" ]
