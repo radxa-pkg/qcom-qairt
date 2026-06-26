@@ -5,7 +5,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
     - name: "Checkout"
-      uses: "actions/checkout@v6"
+      uses: "actions/checkout@v7"
       with:
         fetch-depth: 0
         fetch-tags: true
@@ -71,7 +71,7 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
     - name: "Checkout"
-      uses: "actions/checkout@v6"
+      uses: "actions/checkout@v7"
     - name: "Download generated debs"
       uses: "actions/download-artifact@v8"
       with:
@@ -121,7 +121,7 @@ jobs:
       uses: "RadxaOS-SDK/rsdk/.github/actions/infra-repo-update@main"
       with:
         test-repo: true
-        token: "${{ secrets.RADXA_APT_TEST_REPO_TOKEN }}"
+        token: "${{ secrets.RSDK_APT_REPOSITORY_TOKEN }}"
 name: "Build & Release"
 "on":
   merge_group: {}
